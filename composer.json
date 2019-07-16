@@ -1,0 +1,22 @@
+{
+    "name": "osenco/telkom",
+    "description": "Intuitive Telkom Kenya SDK for PHP Apps",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Osen Concepts",
+            "email": "hi@osen.co.ke"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Osen\\Telkom": "src"
+        },
+        "files": ["src/helpers.php"]
+    }
+}

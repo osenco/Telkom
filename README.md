@@ -1,2 +1,1 @@
-# Telkom
-PHP Library to interface with Telkom Kenya API for various transactions.
+# This project is under active development. Do not use in production.
