@@ -7,7 +7,7 @@ use App\Payment;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Redirect;
 
-use Osen\Telkom\STK;
+use Osen\Telkom\Telkom\STK;
 
 class TelkomController extends Controller
 {

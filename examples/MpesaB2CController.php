@@ -7,7 +7,7 @@ use App\Payment;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Redirect;
 
-use Osen\Telkom\B2C;
+use Osen\Telkom\Telkom;B2C;
 
 class TelkomController extends Controller
 {

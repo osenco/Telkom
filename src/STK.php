@@ -2,9 +2,9 @@
 
 namespace Osen\Telkom;
 
-use Osen\Telkom\Service;
+use Osen\Telkom\Telkom;
 
-class STK extends Service
+class STK extends Telkom
 {
     /**
      * @param int $amount The amount to be transacted.

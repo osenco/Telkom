@@ -2,9 +2,9 @@
 
 namespace Osen\Telkom;
 
-use Osen\Telkom\Service;
+use Osen\Telkom\Telkom;
 
-class Bank extends Service
+class Bank extends Telkom
 {
 	/**
 	 * Transfer funds between two paybills

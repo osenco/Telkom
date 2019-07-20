@@ -2,11 +2,11 @@
 
 /**
  * Register autoloader for classes under the Osen namespace
- * @param class $class Full namespaced class e.g Osen\Telkom\STK
+ * @param class $class Full namespaced class e.g Osen\STK
  */
 spl_autoload_register(function ($class)
 {
-    if (substr($class, 0, 10) == 'Osen\Telkom') {
+    if (substr($class, 0, 11) == 'Osen\Telkom') {
         $class  = str_replace('Osen\Telkom', '', $class);
         $path   = str_replace('\\', '/', $class);
 

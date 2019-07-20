@@ -11,7 +11,7 @@ or create a file called `TelkomController.php` in the `app/Http/Controllers` and
 Put this code at the top of the controller to make the M-PESA class available for use.
 
 ```php
-use Osen\Telkom\STK;
+use Osen\Telkom\Telkom\STK;
 ```
 
 ### Instantiating The Class

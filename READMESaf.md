@@ -61,7 +61,7 @@ For Laravel Users, there is a detailed guide [here](LARAVEL.md) as well as a sam
 Import the class namespace into your class or app to make it available for use. Replace STK with your API of choice. We will be using STK here. See how to set up [C2B here](C2B.md), [B2C here](B2C.md) and [B2B here](B2B.md).
 
 ```php
-use Osen\Telkom\STK;
+use Osen\Telkom\Telkom\STK;
 ```
 
 ### Instantiating The Class
